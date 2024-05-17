@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Tidy',
-  description: 'Page description',
+  title: 'Shree Akshar',
+  description: 'Printing simplified - Affordable plates delivered in 24 hours',
 }
 
 import Hero from '@/components/hero-home'
