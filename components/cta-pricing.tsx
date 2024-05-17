@@ -1,6 +1,8 @@
+import Link from 'next/link'
+
 export default function CtaPricing() {
   return (
-    <section className="relative">
+    <section className="relative mt-16 md:mt-36">
 
       {/* Gray background */}
       <div className="absolute inset-0 top-auto bg-slate-100 pointer-events-none -z-10 h-1/2" aria-hidden="true"></div>
@@ -14,9 +16,7 @@ export default function CtaPricing() {
             </div>
             <div className="h4 font-playfair-display text-center lg:text-left mb-4 lg:mb-0">Launched a business making less than $100K in revenue?</div>
             <div className="p-3 rounded bg-slate-50">
-              <a className="btn-sm text-white bg-blue-600 hover:bg-blue-700 group" href="#0">
-                Contact Us <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-              </a>
+              <Link href="/services#contactus" className="btn-sm text-white bg-blue-600 hover:bg-blue-700 group"> Contact Us <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></Link>
             </div>
           </div>
 

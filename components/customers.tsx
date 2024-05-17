@@ -15,10 +15,10 @@ export default function Customers() {
         <div className="py-12 md:py-20">
 
           {/* Line */}
-          <div className="hidden md:block absolute top-0 left-1/2 -ml-px -mt-4 w-0.5 h-12 bg-slate-200" aria-hidden="true"></div>
+          <div className="hidden md:block absolute top-0 left-1/2 -ml-px -mt-4 w-0.5 h-36 bg-slate-200" aria-hidden="true"></div>
 
           {/* Customers */}
-          <div className="max-w-xl mx-auto md:max-w-none space-y-20">
+          <div className="max-w-xl mx-auto md:max-w-none space-y-20 mt-36">
 
             {/* 1st Customer */}
             <div className="flex flex-col-reverse md:flex-row-reverse md:items-center md:space-x-reverse lg:space-x-reverse xl:space-x-reverse md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-4 space-y-reverse md:space-y-0">

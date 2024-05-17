@@ -13,7 +13,7 @@ import Cta from '@/components/cta-dark'
 export default function Pricing() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <CtaPricing />
       <Features />
       <FeaturesTable />

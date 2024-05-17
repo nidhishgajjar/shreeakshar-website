@@ -19,6 +19,14 @@ export default function FeaturesHome() {
     heightFix()
   }, []) 
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTab(prevTab => (prevTab % 3) + 1)
+    }, 5000)
+
+    return () => clearInterval(interval) 
+  }, [])
+
   return (
     <section className="relative">
 
@@ -29,15 +37,15 @@ export default function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Built exclusively for you</h2>
-            <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Our Services</h2>
+            {/* <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p> */}
           </div>
 
           {/* Section content */}
           <div className="max-w-3xl mx-auto">
 
             {/* Tabs buttons */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pb-12">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pb-12">
               <button
                 className={`text-center transition-opacity ${tab !== 1 && 'opacity-50 hover:opacity-75'}`}
                 onClick={(e) => { e.preventDefault(); setTab(1); }}
@@ -49,7 +57,7 @@ export default function FeaturesHome() {
                       <path fillOpacity=".64" fill="#5091EE" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Flexo Pre-press services.</div>
                 </div>
               </button>
               <button
@@ -63,7 +71,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M20 25h11v11H20z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Digital Flexographic.</div>
                 </div>
               </button>
               <button
@@ -79,10 +87,10 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M27 36l-7-7v7z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Printing of your choice.</div>
                 </div>
               </button>
-              <button
+              {/* <button
                 className={`text-center transition-opacity ${tab !== 4 && 'opacity-50 hover:opacity-75'}`}
                 onClick={(e) => { e.preventDefault(); setTab(4); }}
               >
@@ -95,7 +103,7 @@ export default function FeaturesHome() {
                   </div>
                   <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
                 </div>
-              </button>
+              </button> */}
             </div>
 
             {/* Tabs items */}

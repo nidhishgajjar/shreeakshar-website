@@ -13,9 +13,9 @@ export default function WallOfLove() {
   return (
     <>
       <Hero />
-      <Clients />
+      {/* <Clients /> */}
       <Customers />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <CtaDark />
     </>
   )
