@@ -3,7 +3,7 @@ import Image from 'next/image'
 import CustomerAvatar01 from '@/public/images/customer-avatar-01.jpg'
 import CustomerAvatar02 from '@/public/images/customer-avatar-02.jpg'
 import CustomerAvatar03 from '@/public/images/customer-avatar-03.jpg'
-import Customers01 from '@/public/images/customers-01.jpg'
+import Customers01 from '@/public/images/infra-1.jpg'
 import Customers02 from '@/public/images/customers-02.jpg'
 import Customers03 from '@/public/images/customers-03.jpg'
 
@@ -18,7 +18,7 @@ export default function Customers() {
           <div className="hidden md:block absolute top-0 left-1/2 -ml-px -mt-4 w-0.5 h-36 bg-slate-200" aria-hidden="true"></div>
 
           {/* Customers */}
-          <div className="max-w-xl mx-auto md:max-w-none space-y-20 mt-36">
+          <div className="max-w-xl mx-auto md:max-w-none space-y-20 mt-24">
 
             {/* 1st Customer */}
             <div className="flex flex-col-reverse md:flex-row-reverse md:items-center md:space-x-reverse lg:space-x-reverse xl:space-x-reverse md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-4 space-y-reverse md:space-y-0">
@@ -53,12 +53,12 @@ export default function Customers() {
                   <div className="absolute inset-0 pointer-events-none border-2 border-slate-200 -translate-x-4 -translate-y-4 -z-10" aria-hidden="true"></div>
                   <Image className="mx-auto md:max-w-none" src={Customers01} width={540} height={405} alt="Customer 01" />
                 </div>
-                <button className="absolute group">
+                {/* <button className="absolute group">
                   <svg className="w-16 h-16 fill-current sm:w-20 sm:h-20 group" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
                     <circle className="text-white opacity-80 group-hover:opacity-100 transition duration-150 ease-in-out" cx="44" cy="44" r="44" />
                     <path className="text-blue-600" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
                   </svg>
-                </button>
+                </button> */}
               </div>
 
             </div>

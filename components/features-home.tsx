@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
-import FeaturesImage from '@/public/images/features-home-01.jpg'
+import FeaturesImage1 from '@/public/images/pre-press.jpg'
 
 export default function FeaturesHome() {
 
@@ -28,7 +28,7 @@ export default function FeaturesHome() {
   }, [])
 
   return (
-    <section className="relative">
+    <section className="relative p-3">
 
       <div className="absolute inset-0 bg-slate-100 pointer-events-none mb-64 md:mb-80" aria-hidden="true"></div>
 
@@ -45,7 +45,7 @@ export default function FeaturesHome() {
           <div className="max-w-3xl mx-auto">
 
             {/* Tabs buttons */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pb-12">
+            <div className="grid grid-cols-3  gap-6 pb-12">
               <button
                 className={`text-center transition-opacity ${tab !== 1 && 'opacity-50 hover:opacity-75'}`}
                 onClick={(e) => { e.preventDefault(); setTab(1); }}
@@ -57,7 +57,7 @@ export default function FeaturesHome() {
                       <path fillOpacity=".64" fill="#5091EE" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Flexo Pre-press services.</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Flexo Pre-press services.</div>
                 </div>
               </button>
               <button
@@ -71,7 +71,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M20 25h11v11H20z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Digital Flexographic.</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Digital Flexographic.</div>
                 </div>
               </button>
               <button
@@ -87,7 +87,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M27 36l-7-7v7z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Printing of your choice.</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Printing of your choice.</div>
                 </div>
               </button>
               {/* <button
@@ -121,7 +121,7 @@ export default function FeaturesHome() {
                   leaveTo="opacity-0 translate-y-16"
                   beforeEnter={() => heightFix()}
                 >
-                  <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Features home 01" />
+                  <Image className="mx-auto shadow-2xl" src={FeaturesImage1} width={768} height={474} alt="Features home 01" />
                 </Transition>
                 {/* Item 2 */}
                 <Transition
@@ -135,7 +135,7 @@ export default function FeaturesHome() {
                   leaveTo="opacity-0 translate-y-16"
                   beforeEnter={() => heightFix()}
                 >
-                  <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Features home 02" />
+                  <Image className="mx-auto shadow-2xl" src={FeaturesImage1} width={768} height={474} alt="Features home 02" />
                 </Transition>
                 {/* Item 3 */}
                 <Transition
@@ -149,10 +149,10 @@ export default function FeaturesHome() {
                   leaveTo="opacity-0 translate-y-16"
                   beforeEnter={() => heightFix()}
                 >
-                  <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Features home 03" />
+                  <Image className="mx-auto shadow-2xl" src={FeaturesImage1} width={768} height={474} alt="Features home 03" />
                 </Transition>
                 {/* Item 4 */}
-                <Transition
+                {/* <Transition
                   show={tab === 4}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -163,8 +163,8 @@ export default function FeaturesHome() {
                   leaveTo="opacity-0 translate-y-16"
                   beforeEnter={() => heightFix()}
                 >
-                  <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Features home 04" />
-                </Transition>
+                  <Image className="mx-auto shadow-2xl" src={FeaturesImage1} width={768} height={474} alt="Features home 04" />
+                </Transition> */}
               </div>
             </div>
 
