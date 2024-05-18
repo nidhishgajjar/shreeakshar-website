@@ -3,10 +3,10 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 py-5 sm:px-6">
 
         {/* Top area: Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
+        <div className="flex justify-between items-center gap-8 py-8 md:py-12">
 
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-4 lg:max-w-xs">
@@ -18,11 +18,11 @@ export default function Footer() {
                 </svg>
               </Link>
             </div>
-            <div className="text-lg font-bold text-slate-800">The smarter way to start your next idea.</div>
+            <div className="text-lg font-bold text-slate-800">Printing Simplified</div>
           </div>
 
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">How it works</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
@@ -35,10 +35,10 @@ export default function Footer() {
                 <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Service Areas</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Resources</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
@@ -51,10 +51,10 @@ export default function Footer() {
                 <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Contact Us</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Products</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
@@ -70,20 +70,33 @@ export default function Footer() {
                 <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">First Capital</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Company</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">About Us</a>
+                <Link href="/about" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
+                  About Us
+                </Link>
+                {/* <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">About Us</a> */}
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Careers</a>
+              <Link href="/services" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
+                  Our Services
+                </Link>
+               
               </li>
               <li>
-                <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Terms of Use</a>
+              <Link href="/infra" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
+                  Our Infrastructure
+                </Link>
+              </li>
+              <li>
+                <Link href="/services#contactus" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -126,7 +139,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-slate-500 mr-4">© Cruip.com. All rights reserved.</div>
+          <div className="text-sm text-slate-500 mr-4">© Shree Akshar Blocks Pvt Ltd. All rights reserved.</div>
 
         </div>
 

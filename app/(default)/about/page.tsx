@@ -15,12 +15,12 @@ export default function About() {
   return (
     <>
       <Hero />
-      <Stats />
+      {/* <Stats /> */}
       <Content />
       <Team />
-      <TeamMembers />
-      <Clients />
-      <Cta />
+      {/* <TeamMembers /> */}
+      {/* <Clients /> */}
+      {/* <Cta /> */}
     </>
   )
 }
