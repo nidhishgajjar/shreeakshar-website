@@ -1,13 +1,20 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo01 from '@/components/modal-video-01'
+import HeroImage from '@/public/images/about.jpeg'
 
 export default function HeroHome() {
+
   return (
     <section className="relative">
 
       {/* Dark background */}
-      <div className="absolute inset-0 bg-slate-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-blue-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true">
+        <div className="w-full h-full" data-aos="fade">
+          <Image className="opacity-20 w-full h-full object-cover" src={HeroImage} width={1440} height={497} priority alt="Hero" />
+        </div>
+      </div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-20 md:pt-40 md:pb-44">
@@ -18,15 +25,15 @@ export default function HeroHome() {
             {/* Content */}
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
               <h1 className="h1 font-playfair-display text-slate-100 mb-4">Printing Simplified </h1>
-              <p className="text-xl text-slate-400 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-xl text-slate-400 mb-8">Experience unparalleled quality with our state-of-the-art flexographic plates, designed to bring your prints to life with sharpness and clarity. At Shree Akshar, we're dedicated to making printing simplified.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
-                  <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" href="/request-demo">
-                    Email Us<span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  <Link href="/services#contactus" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group">
+                    Contact Us<span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>
                 <div>
-                  <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" href="#0">Explore Services</Link>
+                  <Link href="/services" className="btn text-white bg-slate-700 hover:bg-slate-800 w-full">Explore Services</Link>
                 </div>
               </div>
             </div>
