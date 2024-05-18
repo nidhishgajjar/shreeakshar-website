@@ -34,7 +34,7 @@ export default function Header({ mode = 'dark' }: {
                 <Link href="/services" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Services</Link>
               </li>
               <li>
-                <Link href="/services#contactus" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
+                <Link href="/services#contactform" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
               </li>
               {/* 1st level: hover */}
               {/* <Dropdown title="Resources"> */}

@@ -3,7 +3,7 @@ import TargetImage from '@/public/images/target.png'
 
 export default function Target() {
   return (
-    <section>
+    <section className='px-10'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-slate-200">
 

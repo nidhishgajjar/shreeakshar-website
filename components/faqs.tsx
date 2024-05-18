@@ -2,18 +2,18 @@ import Accordion from '@/components/utils/accordion'
 
 export default function Faqs() {
   return (
-    <section id="contactus" className="bg-slate-50">
+    <section className="bg-slate-50 px-10">
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-slate-50">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">Frequently Asked Questions</h2>
+            <h2 className="h2 font-playfair-display md:text-5xl text-3xl text-slate-800">Frequently Asked Questions</h2>
           </div>
 
           {/* Faqs */}
-          <ul className="max-w-3xl mx-auto divide-y divide-slate-200">
+          <ul className="max-w-3xl md:text-4xl text-lg mx-auto divide-y divide-slate-200">
             <Accordion title="Can I upgrade or downgrade at any time?" active>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </Accordion>

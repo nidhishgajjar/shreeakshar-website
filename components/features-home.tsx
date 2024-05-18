@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
-import FeaturesImage1 from '@/public/images/pre-press.jpg'
+import FeaturesImage1 from '@/public/images/features-home-01.jpg'
 
 export default function FeaturesHome() {
 

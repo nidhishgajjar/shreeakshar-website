@@ -1,12 +1,12 @@
 export default function FeaturesPricing() {
   return (
-    <section className="bg-slate-100">
+    <section className="bg-slate-100 px-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto lg:mx-0 text-center lg:text-left pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">It's easy to add extra benefits to all of our plans.</h2>
+            <h2 className="h2 font-playfair-display md:text-5xl text-3xl text-slate-800">It's easy to add extra benefits to all of our plans.</h2>
           </div>
 
           {/* Items */}

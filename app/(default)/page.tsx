@@ -11,6 +11,7 @@ import Features03 from '@/components/features-home-03'
 import Target from '@/components/target'
 import PricingSection from '@/components/pricing'
 import Cta from '@/components/cta'
+import ContactForm from '@/components/contactform'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Features03 />
       <Target />
       {/* <PricingSection /> */}
+      <ContactForm />
       <Cta />
     </>
   )

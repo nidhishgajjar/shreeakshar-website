@@ -1,7 +1,7 @@
 export default function AboutContent() {  
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-48">
+      <div className="max-w-6xl mx-auto px-16 sm:px-6 md:mt-48 mt-32">
         <div className="pb-12 md:pb-20">
 
           <div className="max-w-3xl mx-auto">

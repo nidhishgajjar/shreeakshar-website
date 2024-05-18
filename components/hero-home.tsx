@@ -2,15 +2,15 @@ import Link from 'next/link'
 import Image from 'next/image'
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo01 from '@/components/modal-video-01'
-import HeroImage from '@/public/images/about.jpeg'
+import HeroImage from '@/public/images/hero-1.jpg'
 
 export default function HeroHome() {
 
   return (
-    <section className="relative">
+    <section className="relative px-10">
 
       {/* Dark background */}
-      <div className="absolute inset-0 bg-blue-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true">
+      <div className="absolute inset-0 bg-slate-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true">
         <div className="w-full h-full" data-aos="fade">
           <Image className="opacity-20 w-full h-full object-cover" src={HeroImage} width={1440} height={497} priority alt="Hero" />
         </div>
@@ -28,7 +28,7 @@ export default function HeroHome() {
               <p className="text-xl text-slate-400 mb-8">Experience unparalleled quality with our state-of-the-art flexographic plates, designed to bring your prints to life with sharpness and clarity. At Shree Akshar, we're dedicated to making printing simplified.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
-                  <Link href="/services#contactus" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group">
+                  <Link href="/services#contactform" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group">
                     Contact Us<span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>

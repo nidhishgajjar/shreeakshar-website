@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Cta() {
   return (
-    <section className="bg-slate-100">
+    <section className="bg-slate-100 px-10">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 

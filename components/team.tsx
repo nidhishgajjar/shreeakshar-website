@@ -5,7 +5,7 @@ import TeamImage03 from '@/public/images/team-03.jpg'
 
 export default function Team() {  
   return (
-    <section className="bg-slate-100">
+    <section className="bg-slate-100 px-10">
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">

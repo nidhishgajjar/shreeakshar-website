@@ -20,7 +20,7 @@ export default function FeaturesHome02() {
   }, []) 
 
   return (
-    <section>
+    <section className='px-10 md:mt-5 mt-24'>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-slate-200">

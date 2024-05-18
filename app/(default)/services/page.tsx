@@ -9,6 +9,7 @@ import Features from '@/components/features-pricing'
 import FeaturesTable from '@/components/features-table'
 import Faqs from '@/components/faqs'
 import Cta from '@/components/cta-dark'
+import ContactForm from '@/components/contactform'
 
 export default function Pricing() {
   return (
@@ -18,6 +19,7 @@ export default function Pricing() {
       <Features />
       {/* <FeaturesTable /> */}
       <Faqs />
+      <ContactForm />
       <Cta />
     </>
   )
