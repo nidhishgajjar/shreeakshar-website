@@ -15,7 +15,7 @@ export default function FeaturesHome03() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-100">Simplify operating and manage with transparency</h2>
+            <h2 className="h2 font-playfair-display text-slate-100">One, two, three...</h2>
           </div>
 
           {/* Section content */}
@@ -35,7 +35,7 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Send Artwork</a>
               </h3>
               <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
             </article>
@@ -54,7 +54,7 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">We pre-press</a>
               </h3>
               <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
             </article>
@@ -73,7 +73,7 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">48 Hour Turnaround</a>
               </h3>
               <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
             </article>

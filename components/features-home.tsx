@@ -3,7 +3,9 @@
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
-import FeaturesImage1 from '@/public/images/features-home-01.jpg'
+import FeaturesImage1 from '@/public/images/pre-press.jpg'
+import FeaturesImage2 from '@/public/images/flexo-plates.jpg'
+import FeaturesImage3 from '@/public/images/letterpad.jpg'
 
 export default function FeaturesHome() {
 
@@ -57,7 +59,7 @@ export default function FeaturesHome() {
                       <path fillOpacity=".64" fill="#5091EE" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Flexo Pre-press services.</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Flexo Pre-press services</div>
                 </div>
               </button>
               <button
@@ -71,7 +73,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M20 25h11v11H20z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Digital Flexographic.</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Digital Flexographic</div>
                 </div>
               </button>
               <button
@@ -87,7 +89,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M27 36l-7-7v7z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Printing of your choice.</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Printing of your choice</div>
                 </div>
               </button>
               {/* <button
@@ -135,7 +137,7 @@ export default function FeaturesHome() {
                   leaveTo="opacity-0 translate-y-16"
                   beforeEnter={() => heightFix()}
                 >
-                  <Image className="mx-auto shadow-2xl" src={FeaturesImage1} width={768} height={474} alt="Features home 02" />
+                  <Image className="mx-auto shadow-2xl" src={FeaturesImage2} width={768} height={474} alt="Features home 02" />
                 </Transition>
                 {/* Item 3 */}
                 <Transition
@@ -149,7 +151,7 @@ export default function FeaturesHome() {
                   leaveTo="opacity-0 translate-y-16"
                   beforeEnter={() => heightFix()}
                 >
-                  <Image className="mx-auto shadow-2xl" src={FeaturesImage1} width={768} height={474} alt="Features home 03" />
+                  <Image className="mx-auto shadow-2xl" src={FeaturesImage3} width={768} height={474} alt="Features home 03" />
                 </Transition>
                 {/* Item 4 */}
                 {/* <Transition
