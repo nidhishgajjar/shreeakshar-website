@@ -73,7 +73,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M20 25h11v11H20z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Digital Flexographic</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Digital Flexo Plates</div>
                 </div>
               </button>
               <button
@@ -89,7 +89,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M27 36l-7-7v7z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Printing of your choice</div>
+                  <div className="md:text-lg text-sm leading-tight font-semibold text-slate-800">Digital Letterpress</div>
                 </div>
               </button>
               {/* <button
