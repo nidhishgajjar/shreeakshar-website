@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
 import FeaturesImage1 from '@/public/images/pre-press.jpg'
@@ -38,8 +39,11 @@ export default function FeaturesHome() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
+
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Our Services</h2>
+            <Link href="/services">
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Our Services</h2>
+            </Link>
             {/* <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p> */}
           </div>
 

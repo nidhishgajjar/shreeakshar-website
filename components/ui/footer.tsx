@@ -94,6 +94,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/carrers" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
+                  Carrers
+                </Link>
+              </li>
+              <li>
                 <Link href="/services#contactform" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
                   Contact Us
                 </Link>
