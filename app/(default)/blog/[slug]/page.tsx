@@ -54,7 +54,7 @@ export default async function SinglePost({ params }: {
                   {/* Title and excerpt */}
                   <div className="text-center md:text-left">
                     <Link className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2" href="/blog" data-aos="fade-down"><span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span> Back to Blog</Link>
-                    <h1 className="h2 font-playfair-display text-slate-100 mb-6">{post.title}</h1>
+                    <h1 className="h2 font-bricolage text-slate-100 mb-6">{post.title}</h1>
                   </div>
                   {/* Article meta */}
                   <div className="md:flex md:items-center md:justify-between mt-3" data-aos="fade-up">

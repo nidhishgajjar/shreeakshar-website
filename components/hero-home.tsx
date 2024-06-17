@@ -24,7 +24,7 @@ export default function HeroHome() {
 
             {/* Content */}
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
-              <h1 className="h1 font-playfair-display text-slate-100 mb-4">Printing Simplified </h1>
+              <h1 className="h1 font-bricolage text-slate-100 mb-4">Printing Simplified </h1>
               <p className="text-xl text-slate-400 mb-8">Experience unparalleled quality with our state-of-the-art flexographic plates, designed to bring your prints to life with sharpness and clarity. At Shree Akshar, we're dedicated to making printing simplified.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>

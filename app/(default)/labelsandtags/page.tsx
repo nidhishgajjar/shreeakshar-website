@@ -1,12 +1,12 @@
 import React from 'react';
-import HeroCIFlexo from '@/components/hero-ciflexo';
+import HeroLabelsAndTags from '@/components/hero-labelsandtags';
 import OurProcess from './ourprocess';
 import Cta from '@/components/cta';
 
-const CIFlexo = () => {
+const LabelsAndTags = () => {
   return (
     <div>
-      <HeroCIFlexo />
+      <HeroLabelsAndTags />
       <div className='pl-20'>
         <OurProcess />
       </div>
@@ -14,4 +14,4 @@ const CIFlexo = () => {
   );
 };
 
-export default CIFlexo;
+export default LabelsAndTags;

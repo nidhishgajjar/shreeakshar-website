@@ -12,6 +12,7 @@ import Target from '@/components/target'
 import PricingSection from '@/components/pricing'
 import Cta from '@/components/cta'
 import ContactForm from '@/components/contactform'
+import Clients from '@/components/clients'
 
 export default function Home() {
   return (
@@ -20,8 +21,8 @@ export default function Home() {
       <FeaturesBlocks />
       <Features />
       <Features02 />
-      <Features03 />
-      {/* <Target /> */}
+      {/* <Features03 /> */}
+      <Target />
       {/* <PricingSection /> */}
       {/* <ContactForm /> */}
       <Cta />

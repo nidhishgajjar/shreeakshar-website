@@ -28,10 +28,10 @@ export default function Header({ mode = 'dark' }: {
                 <Link href="/about" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
               <li>
-                <Link href="/infra" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Infrastructure</Link>
+                {/* <Link href="/infra" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Infrastructure</Link> */}
               </li>
               <li>
-                <Link href="/services" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Services</Link>
+                <Link href="/carrers" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Carrers</Link>
               </li>
               <li>
                 <Link href="/services#contactform" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
@@ -43,7 +43,7 @@ export default function Header({ mode = 'dark' }: {
                   <Link href="/ciflexo" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">CI Flexo</Link>
                 </li>
                 <li>
-                  <Link href="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Second thing</Link>
+                  <Link href="/labelsandtags" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Labels & Tags</Link>
                 </li>
               </Dropdown>
             </ul>

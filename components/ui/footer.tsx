@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className='px-10'>
+    <footer className='px-10 z-50 bg-neutral-50'>
       <div className="max-w-6xl mx-auto px-4 py-5 sm:px-6">
 
         {/* Top area: Blocks */}
@@ -82,7 +82,7 @@ export default function Footer() {
                 </Link>
                 {/* <a href="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">About Us</a> */}
               </li>
-              <li>
+              {/* <li>
               <Link href="/services" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
                   Our Services
                 </Link>
@@ -92,7 +92,7 @@ export default function Footer() {
               <Link href="/infra" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
                   Our Infrastructure
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/carrers" className='text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out'>
                   Carrers

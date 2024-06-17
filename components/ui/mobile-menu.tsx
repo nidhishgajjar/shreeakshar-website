@@ -71,10 +71,10 @@ export default function MobileMenu() {
               <Link href="/about" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>About Us</Link>
             </li>
             <li>
-              <Link href="/services" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Our Services</Link>
+              <Link href="/carrers" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Carrers</Link>
             </li>
             <li>
-              <Link href="/infra" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Our Infrastructure</Link>
+              {/* <Link href="/infra" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Our Infrastructure</Link> */}
             </li>
   
             <li className="py-2 my-2 border-t border-b border-gray-200">
@@ -84,7 +84,7 @@ export default function MobileMenu() {
                   <Link href="/ciflexo" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Ci Flexo - Flexible Packaging</Link>
                 </li>
                 <li>
-                  <Link href="/404" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Second Thing</Link>
+                  <Link href="/labelsandtags" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Labels & Tags</Link>
                 </li>
               </ul>
             </li>

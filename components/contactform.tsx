@@ -4,7 +4,7 @@ const ContactForm: React.FC = () => {
   return (
     <section id='contactform' className='flex justify-center items-center flex-col'>
 
-    <div className='text-center md:text-5xl text-3xl font-bold font-playfair-display mb-20 mt-28'>Contact Form</div>
+    <div className='text-center md:text-5xl text-3xl font-bold font-bricolage mb-20 mt-28'>Contact Form</div>
 
       <div className='w-full flex justify-center'>
         <div className='w-full max-w-3xl px-10 md:px-30'>

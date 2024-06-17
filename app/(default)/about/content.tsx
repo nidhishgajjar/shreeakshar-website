@@ -6,7 +6,7 @@ export default function AboutContent() {
 
           <div className="max-w-3xl mx-auto">
             <div className="text-lg text-slate-500">
-              <h2 className="h3 font-playfair-display text-slate-800 mb-4">Our Story</h2>
+              <h2 className="h3 font-bricolage text-slate-800 mb-4">Our Story</h2>
               <p className="mb-8">
               Akshar was started in 1960. Akshar is a 3rd generation print film previously known as Akshar Graphics. Driven by customer’s demand for high quality output, Akshar NX switched from analog flexo platemaking to digital with the installation of a KODAK FLEXCEL NX System. We have also achieved Kodak’s rigorous FLEXCEL NX certification to match our quality with global quality and standards defined by Kodak.
               </p>

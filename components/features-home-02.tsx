@@ -36,7 +36,7 @@ export default function FeaturesHome02() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">Why us?</h2>
+            <h2 className="h2 font-bricolage text-slate-800">Why us?</h2>
           </div>
 
           {/* Section content */}
@@ -104,7 +104,7 @@ export default function FeaturesHome02() {
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2" data-aos="fade-up">
               {/* <div className="mb-8 text-center md:text-left"> */}
-                {/* <h3 className="h3 text-slate-800 font-playfair-display mb-3">Why us?</h3> */}
+                {/* <h3 className="h3 text-slate-800 font-bricolage mb-3">Why us?</h3> */}
                 {/* <p className="text-xl text-slate-500">Shree Akshar gives you the guarantee on the free check of the file sent and the plate made.</p> */}
               {/* </div> */}
               {/* Tabs buttons */}

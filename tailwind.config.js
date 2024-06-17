@@ -19,7 +19,8 @@ module.exports = {
       },
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
-        'playfair-display': ['var(--font-playfair-display)', 'serif'],
+        roboto: ['var(--font-roboto)', 'sans-serif'],
+        bricolage: ['var(--font-bricolage-grotesque)', 'sans-serif'],
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1.5' }],
