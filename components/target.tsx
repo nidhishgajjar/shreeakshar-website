@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import TargetImage from '../public/images/infra.jpg'
+import FeaturesImage03 from '@/public/images/features-home-3-03.jpg'
 import Clients from './clients'
 
 
@@ -56,7 +56,7 @@ export default function Target() {
 
             {/* Image */}
             <div className="md:w-5/12 lg:w-1/2 pl-20" data-aos="fade-left">
-              <Image className="mx-auto md:max-w-none" src={TargetImage} width={540} height={540} alt="Target" />
+              <Image className="mx-auto md:max-w-none" src={FeaturesImage03} width={540} height={540} alt="Target" />
             </div>
 
           </div>
