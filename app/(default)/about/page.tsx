@@ -10,6 +10,7 @@ import Team from '@/components/team'
 import TeamMembers from '@/components/team-members'
 import Clients from '@/components/clients-02'
 import Cta from '@/components/cta-02'
+import ContactForm from '@/components/contactform'
 
 export default function About() {
   return (
@@ -17,6 +18,8 @@ export default function About() {
       {/* <Hero /> */}
       {/* <Stats /> */}
       <Content />
+      <ContactForm />
+      
       {/* <Team /> */}
       {/* <TeamMembers /> */}
       {/* <Clients /> */}

@@ -16,7 +16,7 @@ export default function CtaPricing() {
             </div>
             <div className="h4 font-bricolage text-center lg:text-left md:text-xl text-base mb-4 lg:mb-0">Launched a business making less than $100K in revenue?</div>
             <div className="p-3 rounded bg-slate-50">
-              <Link href="/services#contactform" className="md:px-5 md:py-2 px-3 py-1 text-white bg-blue-600 hover:bg-blue-700 group"> Contact Us <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></Link>
+              <Link href="/about/#contactform" className="md:px-5 md:py-2 px-3 py-1 text-white bg-blue-600 hover:bg-blue-700 group"> Contact Us <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></Link>
             </div>
           </div>
 

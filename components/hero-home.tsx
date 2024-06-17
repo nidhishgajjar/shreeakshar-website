@@ -28,13 +28,13 @@ export default function HeroHome() {
               <p className="text-xl text-slate-400 mb-8">Experience unparalleled quality with our state-of-the-art flexographic plates, designed to bring your prints to life with sharpness and clarity. At Shree Akshar, we're dedicated to making printing simplified.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
-                  <Link href="/services#contactform" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group">
+                  <Link href="/about/#contactform" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group">
                     Contact Us<span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>
-                <div>
+                {/* <div>
                   <Link href="/services" className="btn text-white bg-slate-700 hover:bg-slate-800 w-full">Explore Services</Link>
-                </div>
+                </div> */}
               </div>
             </div>
 

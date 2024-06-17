@@ -92,7 +92,7 @@ export default function MobileMenu() {
               <Link href="/signin" className="flex font-medium w-full text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Sign in</Link>
             </li> */}
             <li>
-              <Link href="/services#contactform" className="flex font-medium text-blue-600 py-2 group" onClick={() => setMobileNavOpen(false)}>
+              <Link href="/about/#contactform" className="flex font-medium text-blue-600 py-2 group" onClick={() => setMobileNavOpen(false)}>
                 Contact Us <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </Link>
             </li>
