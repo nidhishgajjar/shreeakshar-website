@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import TargetImage from '@/public/images/infra.jpg'
+import TargetImage from '../public/images/infra.jpg'
 import Clients from './clients'
 
 
