@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import FeaturesImage03 from '@/public/images/features-home-3-03.jpg'
+import FeaturesImage03 from '@/public/images/infrastructure.jpg'
 import Clients from './clients'
 
 

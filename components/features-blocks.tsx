@@ -1,17 +1,19 @@
 'use client';
 
 import { useEffect, useState } from "react";
-import Image1 from "../public/images/blog-post-01.jpg";
-import Image2 from "../public/images/blog-post-02.jpg";
-import Image3 from "../public/images/blog-post-03.jpg";
+import Image1 from "../public/images/ind-1.jpeg";
+import Image2 from "../public/images/ind-2.jpeg";
+import Image3 from "../public/images/ind-3.jpeg";
+import Image4 from "../public/images/ind-4.jpeg";
 
 export default function FeaturesBlocks() {
 
   const [imageIndex, setImageIndex] = useState(0);
   const images = [
-    Image1,
-    Image2,
+    Image4,
     Image3,
+    Image2,
+    Image1,
   ];
 
   useEffect(() => {
@@ -86,7 +88,10 @@ export default function FeaturesBlocks() {
           </dl>
         </div>
       </div>
-        <img src={images[imageIndex].src} alt="Product screenshot" className="w-[48rem] mt-6 max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+      <div className="pl-20 mt-40 ">
+        <img src={images[imageIndex].src} alt="Product screenshot" className="w-[30rem]max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 " />
+      </div>
+  
     </div>
   </div>
 </div>
