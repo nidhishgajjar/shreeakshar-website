@@ -32,9 +32,9 @@ export default function ModalVideo01({
 
       {/* Video thumbnail */}
       <div className="flex justify-center items-center">
-        <div className="relative">
-          <div className="absolute inset-0 pointer-events-none border-2 border-slate-700 mt-3 ml-3 translate-x-4 translate-y-4 -z-10" aria-hidden="true"></div>
-          <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
+        <div className="relative overflow-hidden rounded-lg">
+          <div className="absolute inset-0 pointer-events-none border-2 border-slate-700 mt-3 ml-3 translate-x-4 translate-y-4 -z-10 rounded-lg" aria-hidden="true"></div>
+          <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} className="rounded-lg" />
         </div>
         <button className="absolute group" onClick={() => { setModalOpen(true) }} aria-label="Watch the video">
           <svg className="w-16 h-16 fill-current sm:w-20 sm:h-20 group" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
@@ -68,12 +68,12 @@ export default function ModalVideo01({
             enterFrom="opacity-0 scale-95"
             enterTo="opacity-100 scale-100"
             leave="ttransition ease-out duration-200"
-            leaveFrom="oopacity-100 scale-100"
+            leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
           >
             <div className="max-w-6xl mx-auto h-full flex items-center">
               <Dialog.Panel className="w-full max-h-full aspect-video bg-black overflow-hidden">
-                <video ref={videoRef} width={videoWidth} height={videoHeight} loop controls>
+                <video ref={videoRef} width={videoWidth} height={videoHeight} autoPlay loop controls>
                   <source src={video} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

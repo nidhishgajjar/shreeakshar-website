@@ -30,14 +30,8 @@ export default function Header({ mode = 'dark' }: {
               <li>
                 {/* <Link href="/infra" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Infrastructure</Link> */}
               </li>
-              <li>
-                <Link href="/carrers" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Carrers</Link>
-              </li>
-              <li>
-                <Link href="/about/#contactform" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
-              </li>
               {/* 1st level: hover */}
-              <Dropdown title="Labels & Tags">
+              <Dropdown title="Our expertise">
                 {/* 2nd level: hover */}
                 <li>
                   <Link href="/ciflexo" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">CI Flexo</Link>
@@ -46,6 +40,12 @@ export default function Header({ mode = 'dark' }: {
                   <Link href="/labelsandtags" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Labels & Tags</Link>
                 </li>
               </Dropdown>
+              <li>
+                <Link href="/carrers" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Carrers</Link>
+              </li>
+              <li>
+                <Link href="/about/#contactform" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
+              </li>
             </ul>
 
             {/* Desktop sign in links */}

@@ -5,6 +5,8 @@ import Image1 from "../public/images/ind-1.jpeg";
 import Image2 from "../public/images/ind-2.jpeg";
 import Image3 from "../public/images/ind-3.jpeg";
 import Image4 from "../public/images/ind-4.jpeg";
+import ModalVideo01 from '@/components/modal-video-01'
+import VideoThumb from '@/public/images/hero-image-01.jpg'
 
 export default function FeaturesBlocks() {
 
@@ -88,9 +90,17 @@ export default function FeaturesBlocks() {
           </dl>
         </div>
       </div>
-      <div className="pl-20 mt-40 ">
-        <img src={images[imageIndex].src} alt="Product screenshot" className="w-[30rem]max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 " />
-      </div>
+      <div className="pl-20 mt-32">
+    
+      <ModalVideo01
+              thumb={VideoThumb}
+              thumbWidth={540}
+              thumbHeight={405}
+              thumbAlt="Modal video thumbnail"
+              video="/videos/video.mp4"
+              videoWidth={1920}
+              videoHeight={1080} />   
+      </div>        
   
     </div>
   </div>

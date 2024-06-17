@@ -2,12 +2,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo01 from '@/components/modal-video-01'
-import HeroImage from '@/public/images/hero-1.jpg'
+import HeroImage from '@/public/images/hero-2.jpg'
 
 export default function HeroHome() {
 
   return (
-    <section className="relative px-10">
+    <section className="relative px-10 min-h-screen">
 
       {/* Dark background */}
       <div className="absolute inset-0 bg-slate-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true">
@@ -20,7 +20,7 @@ export default function HeroHome() {
         <div className="pt-32 pb-20 md:pt-40 md:pb-44">
 
           {/* Hero content */}
-          <div className="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
+          <div className="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 mt-40 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
 
             {/* Content */}
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
@@ -39,14 +39,14 @@ export default function HeroHome() {
             </div>
 
             {/* Hero image */}
-            <ModalVideo01
+            {/* <ModalVideo01
               thumb={VideoThumb}
               thumbWidth={540}
               thumbHeight={405}
               thumbAlt="Modal video thumbnail"
               video="/videos/video.mp4"
               videoWidth={1920}
-              videoHeight={1080} />            
+              videoHeight={1080} />             */}
 
           </div>
 
